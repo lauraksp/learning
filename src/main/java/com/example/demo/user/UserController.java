@@ -38,14 +38,10 @@ public class UserController {
         return userService.saveUser(user);
     }
 
-    @DeleteMapping("/{id}")
-    public void deleteUserById(@PathVariable("id") Integer id) {
-         userService.git (id);
-    }
-
-
-
-
+//    @DeleteMapping("/{id}")
+//    public void deleteUserById(@PathVariable("id") Integer id) {
+//         userService.git (id);
+//    }
 
 
 //    @PostMapping
